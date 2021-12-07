@@ -1,5 +1,4 @@
 import React from "react";
-import Cards from "./components/Cards";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -12,7 +11,6 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route path="/products" element={<Cards />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

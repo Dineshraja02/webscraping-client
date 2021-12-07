@@ -1,6 +1,9 @@
 .navbar {
-  background-color: #0000ff;
+  background-color: crimson;
   color: #fff;
+  position:sticky;
+  top: 0;
+
 }
 .navbar-brand {
   font-weight: 900;
